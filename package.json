@@ -1,0 +1,22 @@
+{
+  "name": "avm-data",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "diacritics": "^1.2.3",
+    "geocoder": "*",
+    "mosaic-commons": "*",
+    "mosaic-distil": "git://github.com/ubimix/mosaic-distil.git#master",
+    "underscore": "*"
+  },
+  "scripts": {
+    "run": "node download-all.js"
+  },
+  "engines": {
+    "node": "latest",
+    "npm": "latest"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
