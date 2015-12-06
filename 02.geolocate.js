@@ -14,7 +14,7 @@ var listener = new MosaicDistil.WriteListener({
 });
 
 listener._getDestFile = function(info) {
-  return this._setExtension(info.fileName, '.geo.json');
+  return this._setExtension(info.fileName, '.geojson');
 }
 
 listener = new MosaicDistil.LogListener({
